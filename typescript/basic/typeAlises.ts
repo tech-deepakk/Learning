@@ -1,4 +1,9 @@
-// 1.Exp
+// 1.Make type alise of string 
+type MyString = string;
+const takeName = (name: MyString) => {};
+takeName("Thor");
+
+// 2. making Object type 
 type User = {
   name: string;
   age: number;
@@ -9,11 +14,5 @@ function playGaming(user: User): User {
   return user;
 }
 playGaming({ name: "deepak", age: 20, isYouth: true });
-
-// 2.exp
-type MyString = string;
-const takeName = (name: MyString) => {};
-takeName("nancy");
-
 
 export {};
