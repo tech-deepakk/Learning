@@ -10,7 +10,6 @@ function getId(id: MyId) {
     id.toLowerCase();
   }
 }
-
 getId(45);
 
 //union in  arrays
@@ -30,9 +29,11 @@ const data3: (string | number | boolean)[] = [
   true,
 ];
 
+// constant literals 
 let pi: 3.14 = 3.14;
 // pi=3.145; its not allow in ts because pi act as a literal
 
 let seatAllotment: "aisle" | "window" | "crew";
 seatAllotment = "window";
+
 export {};
