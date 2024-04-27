@@ -29,7 +29,7 @@ const data3: (string | number | boolean)[] = [
   true,
 ];
 
-// constant literals 
+// constant literals
 let pi: 3.14 = 3.14;
 // pi=3.145; its not allow in ts because pi act as a literal
 
